@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+.background {
+    position: relative;
+    min-height: 200vh;
+  }
+  
+  .background:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, rgb(151, 113, 64) 0%, rgb(0, 0, 0) 100%);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+  
+  .star {
+    width: 50%;
+    height: 50%;
+  }
+
+  .maps {
+    color: green;
+    font-size: 40px;
+  }
+
+  .ifood {
+    color: red;
+    font-size: 40px;
+  }
+
+  .p {
+    text-align: center;
+  }
+
+  .link {
+    color: white;
+    text-decoration: underline;
+    padding: 5px;
+  }
+
+  .logo {
+    width: 3rem;
+  }
+
+  
